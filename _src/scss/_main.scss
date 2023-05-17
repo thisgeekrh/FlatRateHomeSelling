@@ -1,0 +1,144 @@
+/*===================================================
+
+Project: archito 
+Auther: Amin-Themes 
+Version: 1.1 
+Last change: 2 Novmber 2020 
+Template Description: Architecure & Enterior design HTML5 Template
+
+====================================================*/
+
+/*==
+01- global-rules and helper classes
+02- page-header
+03- page-hero section
+04- services-section
+05- about section
+06- portfolio section
+07- portfolio-single Section  
+08- our-team section
+09- our-clients section
+10- faq section
+11- testimonials section
+12- contact-us section
+13- take-action section
+14- page-footer section
+15- blog
+16- 404 Page
+17- benefits section
+18- demos page
+
+19- Coloring classes 
+20- Dark Theme Rules
+===*/
+
+
+
+
+/* 01- start global, helper classes , Components Rules*/
+@import '1-helpers/_variables';
+@import '1-helpers/_mixins';
+@import '1-helpers/_globals';
+@import '1-helpers/_custom-animations';
+
+@import '2-components/_buttons';
+@import '2-components/_tabs';
+@import '2-components/_loading-screen';
+/*ُ 01- End global, helper classes , components Rules */
+
+
+
+
+/*02- Start .page-header Rules    */
+@import '3-layout/_page-header';
+/*02- End .page-header Rules    */
+
+
+
+/*  03- Start .page-hero Rules   */
+@import '3-layout/_page-hero';
+/*  03- End .page-hero Rules   */
+
+
+/*   04- Start .services Section Rules    */
+@import '3-layout/_services';
+/*   04- End .services Section Rules   */
+
+
+/*  05- Start about Section   */
+@import '3-layout/_about';
+/*  05- End about Section    */
+
+/*   06- Start portfolio Section  */
+@import '3-layout/_portfolio';
+/*   06- End portfolio Section  */
+
+/*   07- Start portfolio-single Section  */
+@import '3-layout/_portfolio-single';
+/*   07-  End portfolio-single Section  */
+
+
+/*  08- Start our-team Section   */
+@import '3-layout/_our-team';
+/*  08- End our-team Section   */
+
+
+/*  09- Start our-clients Section   */
+@import '3-layout/_our-clients';
+/*  09- End our-clients Section   */
+
+
+/*  10- Start faq Section   */
+@import '3-layout/_faq';
+/*  10- End faq Section  */
+
+/*  11- Start testimonials Section   */
+@import '3-layout/_testimonials';
+/*  11- End testimonials Section   */
+
+
+/*   12- Start contact-us Section  */
+@import '3-layout/_contact-us';
+/*   12- End contact-us Section  */
+
+
+/*  13- Start take-action Section   */
+@import '3-layout/_take-action';
+/*  13- End take-action Section   */
+
+/*   14- Start page-footer Section  */
+@import '3-layout/_page-footer';
+/*   14- End page-footer Section  */
+
+/*   15- Start blog Page  */
+@import '3-layout/_blog';
+/*   15- End blog Page  */
+
+
+/*  16- Start 404 Page  */
+@import '3-layout/_404';
+/*  16- End 404 Page  */
+
+/*  17- Start benefits Section  */
+@import '3-layout/_benefits';
+/*  17-  End benefits Section  */
+
+
+/* 18-  Start demos section Rules  */
+@import '3-layout/_demos';
+/* 18- End  demos section Rules    */
+
+
+
+
+
+
+
+/*   19- Start coloring classes  */
+@import '1-helpers/_coloring-classes';
+/*   19- End coloring classes  */
+
+
+/*   20- Start dark theme rules  */
+@import '1-helpers/_dark-theme';
+/*   20- End dark theme rules  */
